@@ -1,0 +1,177 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TuteDude - HTML Learning Demo</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>Welcome to <mark>TuteDude</mark></h1>
+
+      <p>Learn <strong>HTML</strong> in a <em>simple and practical</em> way.</p>
+
+      <nav>
+        <a href="#about">About</a> | <a href="#menu">Menu</a> |
+        <a href="#trivia">Trivia</a> | <a href="#extras">Extras</a> |
+        <a href="#feedback">Feedback</a>
+      </nav>
+
+      <figure>
+        <img
+          src="https://img.freepik.com/free-vector/flat-twitter-header-template-back-school-season_23-2150646096.jpg?t=st=1766633666~exp=1766637266~hmac=24670345bc92667da2f0aefe78fe79cf4108636846430d39526039b03144ca2c"
+          style="width: 300px"
+          alt="Learning Banner"
+        />
+        <figcaption>Start your web development journey with us</figcaption>
+      </figure>
+    </header>
+
+    <hr />
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- ABOUT SECTION -->
+      <section id="about">
+        <h2>About TuteDude</h2>
+
+        <article>
+          <p>
+            <abbr title="TuteDude Learning Platform">TLP</abbr> is an online
+            platform launched in <time datetime="2020">2020</time> to help
+            students learn <strong>web development</strong>.
+          </p>
+        </article>
+
+        <blockquote>
+          "Learning to code is learning to create."
+          <cite>– Vipin Kushwaha</cite>
+        </blockquote>
+      </section>
+
+      <hr />
+
+      <!-- MENU SECTION -->
+      <section id="menu">
+        <h2>Course Menu</h2>
+
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>Duration</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>HTML Basics</td>
+              <td>4 Weeks</td>
+              <td>
+                <table border="1">
+                  <tr>
+                    <td>Tags</td>
+                    <td>Forms</td>
+                  </tr>
+                  <tr>
+                    <td>Tables</td>
+                    <td>Media</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>CSS</td>
+              <td>6 Weeks</td>
+              <td>Styling & Layout</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td colspan="3">More courses coming soon</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <hr />
+
+      <!-- TRIVIA SECTION -->
+      <section id="trivia">
+        <h2>HTML Trivia</h2>
+
+        <aside>
+          <details>
+            <summary>Did you know?</summary>
+            <p>HTML stands for HyperText Markup Language.</p>
+          </details>
+        </aside>
+      </section>
+
+      <hr />
+
+      <!-- EXTRAS SECTION -->
+      <section id="extras">
+        <h2>Extras</h2>
+
+        <h3>Audio</h3>
+        <audio controls>
+          <source src="sample.mp3" type="audio/mpeg" />
+          Your browser does not support audio.
+        </audio>
+
+        <h3>Video</h3>
+        <video controls width="300">
+          <source src="sample.mp4" type="video/mp4" />
+          Your browser does not support video.
+        </video>
+      </section>
+
+      <hr />
+
+      <!-- FEEDBACK FORM -->
+      <section id="feedback">
+        <h2>Feedback Form</h2>
+
+        <form>
+          <fieldset>
+            <legend>User Feedback</legend>
+
+            <label>Name:</label><br />
+            <input type="text" name="name" /><br /><br />
+
+            <label>Email:</label><br />
+            <input type="email" name="email" /><br /><br />
+
+            <label>Course Interested:</label><br />
+            <select>
+              <option>HTML</option>
+              <option>CSS</option>
+              <option>JavaScript</option></select
+            ><br /><br />
+
+            <label>Message:</label><br />
+            <textarea rows="4" cols="30"></textarea><br /><br />
+
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <hr />
+
+    <!-- FOOTER -->
+    <footer>
+      <address>Contact us at: support@tutedude.com</address>
+
+      <p>© <time datetime="2025">2025</time> TuteDude</p>
+    </footer>
+  </body>
+</html>
